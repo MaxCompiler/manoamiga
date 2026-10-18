@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Professional extends Model
 {
     protected $fillable = [
-        'user_id','bio', 'phone', 'address',
+        'user_id','bio','other_service', 'phone', 'address',
         'latitude', 'longitude', 'coverage_radius_km',
         'is_verified', 'is_available',
     ];
